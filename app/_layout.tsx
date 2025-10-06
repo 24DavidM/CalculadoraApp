@@ -6,9 +6,9 @@ import { Text, View } from "react-native";
 
 const RootLayout = () => {
   return (
-    <View style={{ backgroundColor: Colors.background, flex: 1 }}>
+    <View style={{backgroundColor: Colors.background, flex: 1.5, }}>
       <Text>Header</Text>
-      <Slot />
+      <Slot/>
       <StatusBar style="light"></StatusBar>
     </View>
   );

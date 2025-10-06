@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "calculadora-app",
+    "name": "Calculadora",
     "slug": "calculadora-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.itsdavidd.calculadoraapp"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d86b8c17-cca1-4a24-80fa-df858b207f64"
+      }
     }
   }
 }
